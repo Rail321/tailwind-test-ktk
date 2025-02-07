@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.btn-category {
+  @apply
+    h-15 rounded-2xl px-6
+    bg-gray-100 text-gray-500 fill-gray-500 stroke-gray-500
+    hover:bg-emerald-100 hover:text-emerald-500 hover:fill-emerald-500 hover:stroke-emerald-500
+    active:bg-emerald-100 active:text-emerald-500 active:fill-emerald-500 active:stroke-emerald-500;
+}
